@@ -9,11 +9,15 @@ Console.WriteLine("Введите число");
 int numb = Convert.ToInt32(Console.ReadLine());
 
 int count = 1;
+Console.Write ($"{numb} -> ");
 
 while (count <= numb)
 {
-    if (count%2 == 0) {
-        Console.Write($"{count},");
+    if (count%2 == 0)
+    {
+     Console.Write($"{count} ");  
     }
     count++;
 }
+
+
