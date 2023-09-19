@@ -12,11 +12,8 @@ if (number % 2 == 0)
 {
     Console.WriteLine($"{number} -> да");
 }
-else if (number % 2 > 0)
-{
-    Console.WriteLine($"{number} -> нет");
-}
+
 else
 {
-    Console.WriteLine("Некорректный ввод");
+    Console.WriteLine($"{number} -> нет");
 }
