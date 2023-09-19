@@ -27,4 +27,4 @@ if (max < number3)
     max = number3;
 }
 
-Console.WriteLine($"Максимальное число -> {max}");
+Console.WriteLine($"{number1},{number2},{number3} -> {max}");
