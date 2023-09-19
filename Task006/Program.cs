@@ -10,7 +10,13 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 if (number % 2 == 0)
 {
-Console.WriteLine($"{number} -> да");
+    Console.WriteLine($"{number} -> да");
 }
-else 
-Console.WriteLine($"{number} -> нет");
+else if (number % 2 > 0)
+{
+    Console.WriteLine($"{number} -> нет");
+}
+else
+{
+    Console.WriteLine("Некорректный ввод");
+}
